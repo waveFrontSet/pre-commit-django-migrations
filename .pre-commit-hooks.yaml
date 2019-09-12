@@ -1,0 +1,8 @@
+- id: pre-commit-django-migrations
+  name: Check django migrations
+  entry: python manage.py makemigrations --check
+  language: system
+  types: [python]
+  pass_filenames: false
+  require_serial: true
+
