@@ -3,6 +3,6 @@
   entry: python manage.py makemigrations --dry-run --check
   language: system
   types: [python]
+  always_run: true
   pass_filenames: false
   require_serial: true
-
