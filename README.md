@@ -5,7 +5,7 @@ Example .pre-commit-config.yaml:
 
 ```
 repos:
-  - repo: https://github.com/actiondev/pre-commit-django-migrations
+  - repo: https://github.com/waveFrontSet/pre-commit-django-migrations
     rev: master
     hooks:
     - id: pre-commit-django-migrations
